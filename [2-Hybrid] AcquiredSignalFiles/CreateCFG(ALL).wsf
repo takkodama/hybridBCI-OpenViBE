@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Shift_JIS" standalone="yes" ?>
+<package>
+<job id="WordReplace">
+<?job error="True" debug="True" ?>
+<object id="objFs" progid="Scripting.FileSystemObject" />
+<script language="JavaScript">
+<![CDATA[
+
+var objArg=WScript.Arguments;
+
+strTmp      = objFs.BuildPath (objFs.GetParentFolderName (WScript.ScriptFullName), "[2] AcquiredSignal(ALL).cfg");
+var objTs   = objFs.OpenTextFile(strTmp,2,true);
+
+objTs.WriteLine("<OpenViBE-SettingsOverride>");
+objTs.WriteLine("         <SettingValue>${Player_ScenarioDirectory}/[2-Hybrid] AcquiredSignalFiles/" + objFs.GetFileName (objArg(0)) + "</SettingValue>");
+objTs.WriteLine("</OpenViBE-SettingsOverride>");
+
+objTs.Close();
+
+]]>
+</script>
+</job>
+</package>

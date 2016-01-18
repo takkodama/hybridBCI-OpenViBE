@@ -87,14 +87,14 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Stimulation Frequencies</Name>
 					<DefaultValue>20;15;12</DefaultValue>
-					<Value>12, 19, 15, 22</Value>
+					<Value>11, 16, 13, 18</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
 					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
 					<Name>Processing Frequency Tolerance</Name>
 					<DefaultValue>0.250</DefaultValue>
-					<Value>1</Value>
+					<Value>1.0000</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
