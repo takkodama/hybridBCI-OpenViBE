@@ -1377,7 +1377,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>192.000000</Value>
+					<Value>238.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -1385,7 +1385,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>672.000000</Value>
+					<Value>656.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1453,7 +1453,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>368.000000</Value>
+					<Value>512.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -1461,7 +1461,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>832.000000</Value>
+					<Value>800.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -1529,7 +1529,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>368.000000</Value>
+					<Value>512.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -1537,7 +1537,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>1168.000000</Value>
+					<Value>1121.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -2289,7 +2289,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>192.000000</Value>
+					<Value>389.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -2297,7 +2297,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>992.000000</Value>
+					<Value>608.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -4735,6 +4735,10 @@
 					<Value>(0x00000000, 0x0480d0af)</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc67a01dc, 0x28ce06c1)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
 					<Value>1</Value>
 				</Attribute>
@@ -5550,11 +5554,11 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>165</Value>
+					<Value>362</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
-					<Value>992</Value>
+					<Value>608</Value>
 				</Attribute>
 			</Attributes>
 		</Link>
@@ -5811,11 +5815,11 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>341</Value>
+					<Value>485</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
-					<Value>1168</Value>
+					<Value>1121</Value>
 				</Attribute>
 			</Attributes>
 		</Link>
@@ -5927,11 +5931,11 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>341</Value>
+					<Value>485</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
-					<Value>832</Value>
+					<Value>800</Value>
 				</Attribute>
 			</Attributes>
 		</Link>
@@ -7203,11 +7207,11 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>165</Value>
+					<Value>211</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
-					<Value>672</Value>
+					<Value>656</Value>
 				</Attribute>
 			</Attributes>
 		</Link>
@@ -7779,6 +7783,87 @@
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
 					<Value>-416.000000</Value>
+				</Attribute>
+			</Attributes>
+		</Comment>
+		<Comment>
+			<Identifier>(0x613d7831, 0x6fc5ec50)</Identifier>
+			<Text>          &lt;b&gt;&lt;span color=&quot;#2060ff&quot;&gt;Should be 25 plots&lt;/span&gt;&lt;/b&gt;          
+64 Hz * 0.4 sec = 25.6 -&gt; 25 plots
+25 plots * 10 (Target stimulus of 1 trial) = 250 plots  
+Epoc(10) = 250 / 10 = 25
+
+
+
+</Text>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
+					<Value>656.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
+					<Value>208.000000</Value>
+				</Attribute>
+			</Attributes>
+		</Comment>
+		<Comment>
+			<Identifier>(0x613d7831, 0x6fc5ec51)</Identifier>
+			<Text>          &lt;b&gt;&lt;span color=&quot;#2060ff&quot;&gt;Should be 75 (25 * 3) plots&lt;/span&gt;&lt;/b&gt;          
+25 plots * 30 (Non Target stimulus of 1 trial) = 750 plots  
+Epoc(10) = 750 / 10 = 75
+
+
+
+</Text>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
+					<Value>608.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
+					<Value>368.000000</Value>
+				</Attribute>
+			</Attributes>
+		</Comment>
+		<Comment>
+			<Identifier>(0x613d7831, 0x6fc5ec52)</Identifier>
+			<Text>          &lt;b&gt;&lt;span color=&quot;#2060ff&quot;&gt;Should be 200 features * 2 data&lt;/span&gt;&lt;/b&gt;          
+25 plots * 8 chs = 200 features  
+Data 1: Averaged Epoc by Target 1 
+Data 2: Averaged Epoc by Target 2
+
+
+</Text>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
+					<Value>800.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
+					<Value>480.000000</Value>
+				</Attribute>
+			</Attributes>
+		</Comment>
+		<Comment>
+			<Identifier>(0x613d7831, 0x6fc5ec53)</Identifier>
+			<Text>          &lt;b&gt;&lt;span color=&quot;#2060ff&quot;&gt;Should be 200 features * 6 data&lt;/span&gt;&lt;/b&gt;          
+25 plots * 8 chs = 200 features  
+Data 1-3: Averaged Epoc by NonTarget 1 
+Data 4-6: Averaged Epoc by NonTarget 2
+
+
+</Text>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
+					<Value>1120.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
+					<Value>480.000000</Value>
 				</Attribute>
 			</Attributes>
 		</Comment>
