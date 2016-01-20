@@ -41,21 +41,21 @@ function process(box)
 				stimulation_counter_1 = stimulation_counter_1 + 1
 
 				if stimulation_counter_1 == 1 then
-					-- box:log("Info", string.format("OVTK_StimulationId_Label_1"))
-					box:send_stimulation(1, sent_stimulation_1, time)
+					box:log("Info", string.format("OVTK_StimulationId_Label_1"))
+					-- box:send_stimulation(1, sent_stimulation_1, time)
 				elseif stimulation_counter_1 == 2 then
-					-- box:log("Info", string.format("Send Stimulation 2"))
-					box:send_stimulation(1, sent_stimulation_2, time)
+					box:log("Info", string.format("Send Stimulation 2"))
+					-- box:send_stimulation(1, sent_stimulation_2, time)
 				elseif stimulation_counter_1 == 3 then
-					-- box:log("Info", string.format("Send Stimulation 3"))
-					box:send_stimulation(1, sent_stimulation_3, time)
+					box:log("Info", string.format("Send Stimulation 3"))
+					-- box:send_stimulation(1, sent_stimulation_3, time)
 				elseif stimulation_counter_1 == 4 then
-					-- box:log("Info", string.format("Send Stimulation 4"))
-					box:send_stimulation(1, sent_stimulation_4, time)
+					box:log("Info", string.format("Send Stimulation 4"))
+					-- box:send_stimulation(1, sent_stimulation_4, time)
 				elseif stimulation_counter_1 == 5 then
-					-- box:log("Info", string.format("Send Stimulation 5"))
-					box:send_stimulation(1, sent_stimulation_5, time)
-					-- box:log("Info", string.format("Stimulation Counter RESET"))
+					box:log("Info", string.format("Send Stimulation 5"))
+					-- box:send_stimulation(1, sent_stimulation_5, time)
+					box:log("Info", string.format("Stimulation Counter RESET"))
 					stimulation_counter_1 = 0
 				end
 
@@ -64,21 +64,21 @@ function process(box)
 				stimulation_counter_2 = stimulation_counter_2 + 1
 
 				if stimulation_counter_2 == 1 then
-					-- box:log("Info", string.format("OVTK_StimulationId_Label_2"))
-					box:send_stimulation(2, sent_stimulation_1, time)
+					box:log("Info", string.format("OVTK_StimulationId_Label_2"))
+					-- box:send_stimulation(2, sent_stimulation_1, time)
 				elseif stimulation_counter_2 == 2 then
-					-- box:log("Info", string.format("Send Stimulation 2"))
-					box:send_stimulation(2, sent_stimulation_2, time)
+					box:log("Info", string.format("Send Stimulation 2"))
+					-- box:send_stimulation(2, sent_stimulation_2, time)
 				elseif stimulation_counter_2 == 3 then
-					-- box:log("Info", string.format("Send Stimulation 3"))
-					box:send_stimulation(2, sent_stimulation_3, time)
+					box:log("Info", string.format("Send Stimulation 3"))
+					-- box:send_stimulation(2, sent_stimulation_3, time)
 				elseif stimulation_counter_2 == 4 then
-					-- box:log("Info", string.format("Send Stimulation 4"))
-					box:send_stimulation(2, sent_stimulation_4, time)
+					box:log("Info", string.format("Send Stimulation 4"))
+					-- box:send_stimulation(2, sent_stimulation_4, time)
 				elseif stimulation_counter_2 == 5 then
-					-- box:log("Info", string.format("Send Stimulation 5"))
-					box:send_stimulation(2, sent_stimulation_5, time)
-					-- box:log("Info", string.format("Stimulation Counter RESET"))
+					box:log("Info", string.format("Send Stimulation 5"))
+					-- box:send_stimulation(2, sent_stimulation_5, time)
+					box:log("Info", string.format("Stimulation Counter RESET"))
 					stimulation_counter_2 = 0
 				end
 
@@ -87,21 +87,21 @@ function process(box)
 				stimulation_counter_3 = stimulation_counter_3 + 1
 
 				if stimulation_counter_3 == 1 then
-					-- box:log("Info", string.format("OVTK_StimulationId_Label_3"))
-					box:send_stimulation(3, sent_stimulation_1, time)
+					box:log("Info", string.format("OVTK_StimulationId_Label_3"))
+					-- box:send_stimulation(3, sent_stimulation_1, time)
 				elseif stimulation_counter_3 == 2 then
-					-- box:log("Info", string.format("Send Stimulation 2"))
-					box:send_stimulation(3, sent_stimulation_2, time)
+					box:log("Info", string.format("Send Stimulation 2"))
+					-- box:send_stimulation(3, sent_stimulation_2, time)
 				elseif stimulation_counter_3 == 3 then
-					-- box:log("Info", string.format("Send Stimulation 3"))
-					box:send_stimulation(3, sent_stimulation_3, time)
+					box:log("Info", string.format("Send Stimulation 3"))
+					-- box:send_stimulation(3, sent_stimulation_3, time)
 				elseif stimulation_counter_3 == 4 then
-					-- box:log("Info", string.format("Send Stimulation 4"))
-					box:send_stimulation(3, sent_stimulation_4, time)
+					box:log("Info", string.format("Send Stimulation 4"))
+					-- box:send_stimulation(3, sent_stimulation_4, time)
 				elseif stimulation_counter_3 == 5 then
-					-- box:log("Info", string.format("Send Stimulation 5"))
-					box:send_stimulation(3, sent_stimulation_5, time)
-					-- box:log("Info", string.format("Stimulation Counter RESET"))
+					box:log("Info", string.format("Send Stimulation 5"))
+					-- box:send_stimulation(3, sent_stimulation_5, time)
+					box:log("Info", string.format("Stimulation Counter RESET"))
 					stimulation_counter_3 = 0
 				end
 
@@ -110,21 +110,21 @@ function process(box)
 				stimulation_counter_4 = stimulation_counter_4 + 1
 
 				if stimulation_counter_4 == 1 then
-					-- box:log("Info", string.format("OVTK_StimulationId_Label_4"))
-					box:send_stimulation(4, sent_stimulation_1, time)
+					box:log("Info", string.format("OVTK_StimulationId_Label_4"))
+					-- box:send_stimulation(4, sent_stimulation_1, time)
 				elseif stimulation_counter_4 == 2 then
-					-- box:log("Info", string.format("Send Stimulation 2"))
-					box:send_stimulation(4, sent_stimulation_2, time)
+					box:log("Info", string.format("Send Stimulation 2"))
+					-- box:send_stimulation(4, sent_stimulation_2, time)
 				elseif stimulation_counter_4 == 3 then
-					-- box:log("Info", string.format("Send Stimulation 3"))
-					box:send_stimulation(4, sent_stimulation_3, time)
+					box:log("Info", string.format("Send Stimulation 3"))
+					-- box:send_stimulation(4, sent_stimulation_3, time)
 				elseif stimulation_counter_4 == 4 then
-					-- box:log("Info", string.format("Send Stimulation 4"))
-					box:send_stimulation(4, sent_stimulation_4, time)
+					box:log("Info", string.format("Send Stimulation 4"))
+					-- box:send_stimulation(4, sent_stimulation_4, time)
 				elseif stimulation_counter_4 == 5 then
-					-- box:log("Info", string.format("Send Stimulation 5"))
-					box:send_stimulation(4, sent_stimulation_5, time)
-					-- box:log("Info", string.format("Stimulation Counter RESET"))
+					box:log("Info", string.format("Send Stimulation 5"))
+					-- box:send_stimulation(4, sent_stimulation_5, time)
+					box:log("Info", string.format("Stimulation Counter RESET"))
 					stimulation_counter_4 = 0
 				end
 
