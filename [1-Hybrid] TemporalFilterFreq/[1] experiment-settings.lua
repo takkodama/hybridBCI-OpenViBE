@@ -10,6 +10,7 @@ training_targets_positions = {}
 processing_epoch_duration = nil
 processing_epoch_interval = nil
 processing_frequency_tolerance = nil
+processing_pass_band_ripples = nil
 
 function initialize(box)
 
@@ -21,6 +22,8 @@ function initialize(box)
 	end
 
 	processing_frequency_tolerance = box:get_setting(3)
+
+	processing_pass_band_ripples = box:get_setting(4)
 
 end
 
@@ -53,7 +56,7 @@ function process(box)
 		success = success and cfg_file:write("<SettingValue>4</SettingValue>\n")
 		success = success and cfg_file:write(string.format("<SettingValue>%g</SettingValue>\n", stimulation_frequencies[i] - processing_frequency_tolerance + 0.0000))
 		success = success and cfg_file:write(string.format("<SettingValue>%g</SettingValue>\n", stimulation_frequencies[i] + processing_frequency_tolerance - 0.0001))
-		success = success and cfg_file:write("<SettingValue>0.500000</SettingValue>\n")
+		success = success and cfg_file:write("<SettingValue>", processing_pass_band_ripples, "</SettingValue>\n")
 		success = success and cfg_file:write("</OpenViBE-SettingsOverride>\n")
 		
 		cfg_file:close()
