@@ -25,7 +25,7 @@ function process(box)
 
 			t_code, t_date, t_duration = box:get_stimulation(2, 1)
 			box:remove_stimulation(2, 1)
-			box:log("Info", string.format("=== Target : %s", t_code))
+			box:log("Info", string.format("=== Target SET: %s", t_code))
 		end
 
 		while box:get_stimulation_count(1) > 0 do
@@ -40,10 +40,10 @@ function process(box)
 				received_stimulation = s_code - OVTK_StimulationId_Label_00
 
 				if t_code == s_code then
-					--box:log("Info", string.format("Target!"))
+					-- box:log("Info", string.format("Target!"))
 					box:send_stimulation(1, sent_stimulation, time)
 				else
-					--box:log("Info", string.format("Nontarget!"))
+					-- box:log("Info", string.format("Nontarget!"))
 					box:send_stimulation(2, sent_stimulation, time)
 				end
 

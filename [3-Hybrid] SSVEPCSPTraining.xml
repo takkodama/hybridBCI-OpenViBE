@@ -279,10 +279,6 @@
 					<Value>(0x00000000, 0x00159cdb)</Value>
 				</Attribute>
 				<Attribute>
-					<Identifier>(0xc67a01dc, 0x28ce06c1)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
 					<Value>false</Value>
 				</Attribute>
@@ -642,6 +638,10 @@
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
 					<Value>(0x00000000, 0x001d7101)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc67a01dc, 0x28ce06c1)</Identifier>
+					<Value></Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -3758,7 +3758,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>-640.000000</Value>
+					<Value>-644.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -3840,7 +3840,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>-640.000000</Value>
+					<Value>-647.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -4531,7 +4531,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>-656</Value>
+					<Value>-660</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -4676,7 +4676,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>-656</Value>
+					<Value>-660</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -4755,7 +4755,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
-					<Value>-622</Value>
+					<Value>-629</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
@@ -5053,7 +5053,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>-656</Value>
+					<Value>-663</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -5538,7 +5538,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
-					<Value>-622</Value>
+					<Value>-626</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
@@ -5575,7 +5575,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>-656</Value>
+					<Value>-663</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -6506,6 +6506,7 @@
 			<Identifier>(0x613d7831, 0x6fc5ec50)</Identifier>
 			<Text>     &lt;b&gt;&lt;span color=&quot;#2060ff&quot;&gt;Take 8ch for SSVEP (12.0 seconds -&gt; 3.0 to 15.0 seconds)&lt;/span&gt;&lt;/b&gt;     
  ( SSVEP signal began from 3.0 sec)
+256Hz * 12sec * 4trials = 12288 plots
 
 </Text>
 			<Attributes>
@@ -6515,14 +6516,14 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>-656.000000</Value>
+					<Value>-672.000000</Value>
 				</Attribute>
 			</Attributes>
 		</Comment>
 		<Comment>
 			<Identifier>(0x613d7831, 0x6fc5ec51)</Identifier>
 			<Text>     &lt;b&gt;&lt;span color=&quot;#2060ff&quot;&gt;Take 16Ch for trial duration (15 seconds)&lt;/span&gt;&lt;/b&gt;     
-
+256Hz * 15sec * 4trials = 15360 plots
 
 </Text>
 			<Attributes>
@@ -6532,7 +6533,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>-656.000000</Value>
+					<Value>-669.000000</Value>
 				</Attribute>
 			</Attributes>
 		</Comment>

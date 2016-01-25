@@ -1,5 +1,8 @@
 *.ov
 *.csv
 *.cfg
+Unity
+*.png
+*.exe
 signals
 ExperimentDatas
