@@ -12,7 +12,7 @@ strTmp      = objFs.BuildPath (objFs.GetParentFolderName (WScript.ScriptFullName
 var objTs   = objFs.OpenTextFile(strTmp,2,true);
 
 objTs.WriteLine("<OpenViBE-SettingsOverride>");
-objTs.WriteLine("         <SettingValue>${Player_ScenarioDirectory}/[2-Hybrid] AcquiredSignalFiles/" + objFs.GetFileName (objArg(0)) + "</SettingValue>");
+objTs.WriteLine("         <SettingValue>${Player_ScenarioDirectory}/PersonalData (ov+cfg)/" + objFs.GetFileName (objArg(0)) + "</SettingValue>");
 objTs.WriteLine("</OpenViBE-SettingsOverride>");
 
 objTs.Close();
