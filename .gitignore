@@ -6,3 +6,8 @@ Unity
 *.exe
 signals
 ExperimentDatas
+PersonalData (csv)
+PersonalData (ov+cfg)
+TactileScript
+VisualizationCard
+settingtxt

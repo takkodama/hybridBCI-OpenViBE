@@ -8,7 +8,7 @@
 
 var objArg=WScript.Arguments;
 
-strTmp      = objFs.BuildPath (objFs.GetParentFolderName (WScript.ScriptFullName), "[6] AcquiredSignal(ALL).cfg");
+strTmp      = objFs.BuildPath (objFs.GetParentFolderName (WScript.ScriptFullName), "[6] AcquiredSignal(Trial).cfg");
 var objTs   = objFs.OpenTextFile(strTmp,2,true);
 
 objTs.WriteLine("<OpenViBE-SettingsOverride>");

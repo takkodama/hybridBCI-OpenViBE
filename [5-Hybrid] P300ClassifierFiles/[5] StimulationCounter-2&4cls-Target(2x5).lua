@@ -31,19 +31,19 @@ function process(box)
 				stimulation_counter = stimulation_counter + 1
 
 				if stimulation_counter < 3 then
-					box:log("Info", string.format("Target 1-2"))
+					-- box:log("Info", string.format("Target 1-2"))
 					box:send_stimulation(1, sent_stimulation, time)
 				elseif stimulation_counter >= 3 and stimulation_counter < 5 then
-					box:log("Info", string.format("Target 3-4"))
+					-- box:log("Info", string.format("Target 3-4"))
 					box:send_stimulation(2, sent_stimulation, time)
 				elseif stimulation_counter >= 5 and stimulation_counter < 7 then
-					box:log("Info", string.format("Target 5-6"))
+					-- box:log("Info", string.format("Target 5-6"))
 					box:send_stimulation(3, sent_stimulation, time)
 				elseif stimulation_counter >= 7 and stimulation_counter < 9 then
-					box:log("Info", string.format("Target 7-8"))
+					-- box:log("Info", string.format("Target 7-8"))
 					box:send_stimulation(4, sent_stimulation, time)
 				elseif stimulation_counter >= 9 then
-					box:log("Info", string.format("Target 9-10"))
+					-- box:log("Info", string.format("Target 9-10"))
 					box:send_stimulation(5, sent_stimulation, time)
 					if(stimulation_counter == 10) then
 						stimulation_counter = 0

@@ -87,7 +87,7 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Stimulation Frequencies</Name>
 					<DefaultValue>20;15;12</DefaultValue>
-					<Value>7, 12, 15, 20</Value>
+					<Value>7, 15, 12, 20</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
