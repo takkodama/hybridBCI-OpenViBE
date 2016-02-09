@@ -4,6 +4,8 @@
 Unity
 *.png
 *.exe
+(old)*
+(origin)*
 signals
 ExperimentDatas
 PersonalData (csv)
