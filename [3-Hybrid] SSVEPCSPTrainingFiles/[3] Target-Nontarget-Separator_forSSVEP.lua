@@ -43,11 +43,17 @@ function process(box)
 			if t_code == trigger_stimulation then
 
 				received_stimulation = s_code - OVTK_StimulationId_Label_00
+				-- box:log("Info", string.format("received_stimulation : %s", received_stimulation))
 
 				if targets[received_stimulation] ~= nil then
+					-- box:log("Info", string.format("TARGET"))
 					box:send_stimulation(1, trigger_stimulation, time)
 				elseif non_targets[received_stimulation] ~= nil then
+					-- box:log("Info", string.format("Non-TARGET"))
 					box:send_stimulation(2, trigger_stimulation, time)
+--				else
+--					box:send_stimulation(1, OVTK_StimulationId_NonTarget, time)
+--					box:send_stimulation(2, OVTK_StimulationId_NonTarget, time)
 				end
 
 			elseif s_code == OVTK_StimulationId_ExperimentStop then
@@ -56,6 +62,10 @@ function process(box)
 		end
 
 		while box:get_stimulation_count(1) > 0 do
+
+			-- box:log("Info", string.format("RESET"))
+			-- box:send_stimulation(1, OVTK_StimulationId_NonTarget, time)
+			-- box:send_stimulation(2, OVTK_StimulationId_NonTarget, time)
 
 			s_code, s_date, s_duration = box:get_stimulation(1, 1)
 			box:remove_stimulation(1, 1)
